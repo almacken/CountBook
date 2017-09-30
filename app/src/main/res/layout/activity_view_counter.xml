@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.almacken.almacken_countbook.ViewCounter">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Counter Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toLeftOf="@+id/editName"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:text="Edit"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/staticText1" />
+
+    <TextView
+        android:id="@+id/staticText0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Current Value:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintTop_toBottomOf="@+id/nameText"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/curValueText"
+        android:layout_width="22dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="8dp"
+        android:text="Val"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/staticText0"
+        app:layout_constraintLeft_toRightOf="@+id/staticText0"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/staticText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:text="Initial Value:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/curValueText"
+        app:layout_constraintRight_toLeftOf="@+id/iniValueText" />
+
+    <TextView
+        android:id="@+id/iniValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:text="Val"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/staticText1"
+        app:layout_constraintRight_toRightOf="@+id/editName" />
+
+    <Button
+        android:id="@+id/editCur"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-1dp"
+        android:text="Edit"
+        app:layout_constraintLeft_toLeftOf="@+id/staticText0"
+        app:layout_constraintTop_toBottomOf="@+id/staticText0"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/curValueText" />
+
+    <Button
+        android:id="@+id/editIni"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="Edit"
+        app:layout_constraintLeft_toLeftOf="@+id/staticText1"
+        app:layout_constraintRight_toRightOf="@+id/iniValueText"
+        app:layout_constraintTop_toBottomOf="@+id/staticText1" />
+
+    <TextView
+        android:id="@+id/commentText"
+        android:layout_width="344dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        android:text="Comment Text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintLeft_toLeftOf="@+id/staticText0"
+        app:layout_constraintTop_toBottomOf="@+id/editCur"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/iniValueText" />
+
+    <Button
+        android:id="@+id/editComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Edit"
+        app:layout_constraintLeft_toLeftOf="@+id/commentText"
+        app:layout_constraintTop_toBottomOf="@+id/commentText" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="16dp"
+        android:text="Delete Counter"
+        app:layout_constraintRight_toRightOf="@+id/editName"
+        app:layout_constraintTop_toBottomOf="@+id/editComment" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Input values here, then press the edit buttons"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
