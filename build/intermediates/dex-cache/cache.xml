@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\861d941e8bf77b577551c8ca6d1409c5c93d9f88\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_a8deb96a68953a5958dc3b171077aa6a84dcfad2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\e8aef4e48c4646a61a089137ab0e088f2f109988\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_1b6b71ef90cd275e9d95d5f6ad73f5166afd200a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\fb91dcf583b351129b6e6913973f2d31b2afd19a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_c3b2d0a6017fd456995a626149309f5b535d6b14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\b6839bacd2804aca21ffab13bca9b47f1a10b2b4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_968358ce5d05f8e9d0285a5dd1d4fc123c269d51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\981b8863c14ccddca83166cae44148d0d7ebb2ed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_60e5c3067065328269770fb5d827cc17c7f72dbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\71071914021109c24faff5827b69c22d5cdf1176\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_77f6cf73b5a92828f9fe8fd8b78f1e4af92f2c3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\6b901e81282de759b7cb39694eb5f0c74d796d52\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_7b5841bac149c284e541e36971604f496c42da41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_d331c97eb1e410a7fcf46d6c1e3950606f70c72d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_38ddf4d8d12dfc8d8e0a9b3ce8dc3982ed3dd654.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\3a5b508f67180ad88a526bbd715783389139e66a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_8c248dc6b4cd5f0391234a61f6a98d9a9ab7d9b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\3779e8805beaef540f009221920375553e559189\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_93e0bc3d0120685a55a7f08db8e679e93ef7a61a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.android\build-cache\1ca8e311b844697d0d92c5b51c8d7ed3a4345dab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\classes_e389b492fd35c9e03fa85159440b0a4f7eb01e41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Alex\AndroidStudioProjects\almacken-CountBook\app\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+
+</items>

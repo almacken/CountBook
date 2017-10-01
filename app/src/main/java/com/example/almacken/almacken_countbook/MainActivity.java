@@ -12,7 +12,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
 
     public static CounterList counterList;
-    public static ArrayAdapter<Counter> adapter;
+    public static CounterAdapter<Counter> adapter;
 
     private EditText nameText;
     private EditText valueText;
